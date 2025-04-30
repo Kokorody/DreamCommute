@@ -94,7 +94,6 @@ class LocationService : Service() {
         }
 
         val distanceToTarget = currentLocation.distanceTo(targetLocation)
-
         if (distanceToTarget <= targetRadius) {
             triggerAlarm()
 

@@ -16,12 +16,12 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.DreamCommute">
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
 
         <!-- Google Maps API Key -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="buat api key sendiri blog" />
+            android:value="pake api sendiri lah" />
 
         <activity
             android:name=".MainActivity"
